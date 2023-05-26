@@ -10,7 +10,11 @@
 ### - Can use "master mode" via capable wlan interface by matching both "-i" and "-o" flages with the same interface.
 ---
 ---
-### Usage: ./apex [OPTIONS] [ARGUMENTS]
+## Note: Must manually set corrisponding wireless interfaces in either "managed mode" (input / -i) + "monitor mode" (output \ -o) or "master mode" (for capable devices) under bth "-o & -i" flags.
+### Example: sudo airmon-ng start wlan1 or sudo ifconfig wlan1 mode master (or monitor) ...depending of the device(s) being used.
+---
+---
+## Usage: ./apex [OPTIONS] [ARGUMENTS]
 ### OPTIONS:
 ### -d	Number of packets to send. (Default: 15)
 ### -h	Show this help screen.
