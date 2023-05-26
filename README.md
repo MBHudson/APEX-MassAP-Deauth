@@ -10,7 +10,7 @@
 ### - Can use "master mode" via capable wlan interface by matching both "-i" and "-o" flages with the same interface.
 ---
 ---
-## Note: Must manually set corrisponding wireless interfaces in either "managed mode" (input / -i) + "monitor mode" (output \ -o) or "master mode" (for capable devices) under bth "-o & -i" flags.
+## Note: Must manually set corrisponding wireless interfaces in either "managed mode" (input / -i) + "monitor mode" (output \ -o) or "master mode" (for capable devices) using both "-o & -i" flags.
 ### Example: sudo airmon-ng start wlan1 or sudo ifconfig wlan1 mode master (or monitor) ...depending of the device(s) being used.
 ---
 ---
