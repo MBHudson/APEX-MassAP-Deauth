@@ -1,7 +1,10 @@
 # APEX-MassAP-Deauth
----
 ## HIGHLY ILLEGAL, NOT RESPONSIBLE FOR MISUSE!
-TESTED ON PC, Rpi (ALL), WIFI PINAPPLE (ALL)
+---
+[!] TESTED ON PC 
+[!] TESTED ON Rpi (ALL) 
+[!] TESTED ON WIFI PINAPPLE (ALL)
+---
 ### -Advanced: Two interfaces mode, Master inferface mode
 ### - Choose reason code, attack duration and packets sent
 ---    
