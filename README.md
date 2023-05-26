@@ -19,7 +19,7 @@
 ### -w	Seconds to wait after # of packets are sent (Default: .1)
 ### -o	IFace to send deauthentication packets.
 ### -r	Reason Code (Default: 7)
-### Example: sudo ./apex -d 15 -i wlan0 -o wlan1 -m 5C:7D:7D:33:31:01 -w .1
+### Example: sudo ./apex -d 15 -r 7 -i wlan0 -o wlan1 -m 5C:7D:7D:33:31:01 -w .1
 ---
 ---
 ---
